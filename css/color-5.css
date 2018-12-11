@@ -1,0 +1,163 @@
+/*Color-5*/
+
+/*button*/
+.button:hover {background-color: #e0a413;}
+
+
+/*blockquote*/
+blockquote{border-left: 3px solid #e0a413;}
+
+/*dropcap*/
+.dropcap {background: #e0a413;}
+
+/*Toggle*/
+#toggle-view span {background:#e0a413;}
+
+/*back to top button*/   
+#back-top a:hover span {background-color: #e0a413;}
+
+/* =============================================================================
+   HOVER IMAGE PORTFOLIO
+   ========================================================================== */
+.view-info-portfolio a.info:hover {
+	background: #e0a413 url(../img/link-portfolio.png) no-repeat center center;
+}
+.view-info-portfolio a.view-item:hover {
+	background: #e0a413 url(../img/view-portfolio.png) no-repeat center center;
+}
+.view-col2 .mask-1, .view-col2 .mask-2 {background:  rgba(238,192,80, 0.3);}
+.view-col3 .mask-1, .view-col3 .mask-2 {background:  rgba(238,192,80, 0.3);}
+.view-col4 .mask-1, .view-col4 .mask-2 {background:  rgba(238,192,80, 0.3);}
+.view a.info:hover {background: #e0a413;}
+
+/* =============================================================================
+   PORTFOLIO ( 2 3 4 ) COLUMNS
+   ========================================================================== */
+.our-portfolio-col:hover #our-portfolio-col-info{border-bottom: 2px solid #e0a413} 
+#portfolio-filter li a:hover {background: #e0a413;}
+.selected-item{background: #e0a413 !important}
+/* =============================================================================
+   Header - Logo & Menu 
+   ========================================================================== */
+.logo {background:url(../img/logo-color/logo-5.png) no-repeat left center;}
+
+/* =============================================================================
+   NAVIGATION MENU
+   ========================================================================== */
+.slected-menu{background: #e0a413;}
+#main-navigation ul li a:hover, #main-navigation ul li.current-menu-ancestor > a {
+	background: #e0a413;
+}
+#main-navigation ul li a#visited {
+	background: #e0a413;
+}
+
+#main-navigation ul ul li, #main-navigation ul ul li a {
+	background: rgba(238,192,80, 0.7);
+}
+#main-navigation ul ul li a {
+border-bottom: 1px solid #f8db95;
+}
+/* =============================================================================
+   BREADCRUMB
+   ========================================================================== */
+.beadcrumb-title{background: url(../img/beadcrumb-color/beadcrumb-5.png) no-repeat left center;}
+.breadcrumbs ul li a:hover{color: #e0a413;}
+
+/* =============================================================================
+   Home - Service 
+   ========================================================================== */
+.service-home a{color: #e0a413;}
+/* =============================================================================
+   About us - Our Team
+   ========================================================================== */
+.our-team-col:hover .our-team-col-info{border-bottom: 2px solid #e0a413} 
+/* =============================================================================
+   About us - Progress Bars Our Skill
+   ========================================================================== */
+.meter > span {
+	background-color: #e0a413;
+}
+/* =============================================================================
+   About us - Services
+   ========================================================================== */
+.service-menu li:hover .service-icon{
+    color: #e0a413;
+}
+.service-menu li:hover .service-main{
+    color: #e0a413;
+}
+.service-menu li:hover .service-sub{
+    background-color: #e0a413;
+}
+
+/* =============================================================================
+   Blog - Blog list
+   ========================================================================== */
+#blog-list ul li .blog-title a:hover{color: #e0a413}
+
+#blog-info-wraper{border-left: 3px solid #e0a413;}
+#blog-info-wraper a:hover{color: #e0a413}
+
+
+/* =============================================================================
+   Contact Form
+   ========================================================================== */
+
+#contact-form input[type="submit"]:hover{ background: #e0a413}
+
+/* =============================================================================
+   Sidebar
+   ========================================================================== */
+
+/* Sidebar - Categories */
+.sidebar-categories ul li a:hover{ color: #e0a413;}
+
+/* Sidebar - Recent post */
+.sidebar-recent-post ul li a:hover{ color: #e0a413;}
+
+/* Sidebar - Tags */
+.sidebar-tags ul li a:hover{ background: #e0a413;}
+
+/* Sidebar - Tabs */
+#tab .nav li a.current{border:1px solid #e0a413;background: #e0a413;}
+
+#tab #comment span a:hover{ color:#e0a413;}
+
+#tab #archive li a:hover{ color:#e0a413; }
+
+/* =============================================================================
+   Search form 
+   ========================================================================== */
+.searchform .searchbutton{
+	background: #e0a413;
+}
+
+/* =============================================================================
+   Pagination
+   ========================================================================== */
+.pagination ul li a.select{background: #e0a413;}
+.pagination ul li a:hover{ background: #e0a413;}
+
+/* =============================================================================
+   FOOTER
+   ========================================================================== */
+
+.widget a:hover{color: #e0a413; }
+
+.footer-copyright a{color:#e0a413;}
+/* =============================================================================
+   jBar Plugin Styles
+   ========================================================================== */
+.jBar {
+	border-bottom:5px solid #e0a413;
+}
+/* ==========================================================================
+   Mosaic Style
+   ========================================================================== */
+	
+/*** Custom Animation Styles (You can remove/add any styles below) ***/
+.circle .mosaic-overlay {
+	background:#e0a413 url(../img/hover-magnify.png) no-repeat center center ;
+}
+#related ul li:hover a{color: #e0a413}
