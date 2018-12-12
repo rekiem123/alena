@@ -198,6 +198,12 @@ textarea {
 	background:#333;
 	padding: 10px 20px 11px;
 }
+.buttonWhatsapp {
+	color: white;
+	background:#01e675;
+	border-radius: 5px;
+	padding: 10px 20px 11px;
+}
 .button.tiny {
 	color: white;
 	background:#333;
