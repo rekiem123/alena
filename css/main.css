@@ -1,4 +1,4 @@
-/* @import url("color-1.css"); */
+    /* @import url("color-1.css"); */
 /* @import url("color-2.css"); */
 /* @import url("color-3.css"); */
 /* @import url("color-4.css"); */
@@ -12,7 +12,7 @@
 @import url(../../fonts.googleapis.com/css@family=Dancing+Script);
 /* ==========================================================================
    Structure main.css file :
-   
+
    1 - HTML5 Boilerplate
    2 - Layout style and typography
    3 - Hover effect image portfolio
@@ -22,12 +22,12 @@
    7 - Navigation Menu
    8 - Superfish menu
    9 - Breadcrumb
-   10 - Home - Service 
+   10 - Home - Service
    11 - About us
    		- Our Team
    		- Progress Bars
    		- Services
-   12 - Blog 
+   12 - Blog
    		- Blog list
    		- Comment style
    13 - Contact Form
@@ -43,7 +43,7 @@
    23 - PrettyPhotos Style
    24 - Mosaic Style
    25 - Helper classes
-   
+
    ========================================================================== */
 
 /*
@@ -53,7 +53,7 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-   
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -139,9 +139,9 @@ textarea {
 	-webkit-box-shadow: 0 -11px 7px -10px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 -11px 7px -10px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 -11px 7px -10px rgba(0, 0, 0, 0.3);
-}   
-   
-/*typography*/   
+}
+
+/*typography*/
 .container h1, h2, h3, h4, h5{color: #575757;}
 .container h1, h2, h3, h4, h5, p {
 	font-family: 'Questrial', sans-serif;
@@ -362,7 +362,7 @@ span.yellow {
 	display: inline-block !important;
 	margin-right: 10px;
 }
-/*back to top button*/   
+/*back to top button*/
 #back-top {
 	position: fixed;
 	bottom: 30px;
@@ -959,7 +959,7 @@ ul.portfolio {
 }
 /* =============================================================================
    OUR PORTFOLIO (not isotop)
-   ========================================================================== */    
+   ========================================================================== */
 .our-portfolio{margin: 0;}
 .our-portfolio-col {
 	margin-bottom: 25px;
@@ -1001,7 +1001,7 @@ ul.portfolio {
 	transition: all 0.5s ease;
 }
 /* =============================================================================
-   Header - Logo & Menu 
+   Header - Logo & Menu
    ========================================================================== */
 header {
 	background: #eeeeee;
@@ -1015,9 +1015,9 @@ header {
 }
 .logo {
 	margin: 10px 0 0 0;
-	float: left; 
-	display:block; 
-	text-indent:-9999px; 
+	float: left;
+	display:block;
+	text-indent:-9999px;
 	width:100%;
 	height:65px;
 }
@@ -1249,11 +1249,11 @@ nav ul li a span {
    BREADCRUMB
    ========================================================================== */
 .wraper-intro{
-	margin-bottom: 30px; 
+	margin-bottom: 30px;
 	overflow: hidden;
 }
 .intro h1{
-	font-family: 'Dancing Script', cursive; 
+	font-family: 'Dancing Script', cursive;
 	font-size: 40px;
 	margin: 0;
 	line-height: 45px;
@@ -1261,11 +1261,11 @@ nav ul li a span {
 .intro h2{
 	margin: 0;
 }
-.intro span{ 
-	display: block; 
-	text-align: center; 
+.intro span{
+	display: block;
+	text-align: center;
 	padding-top: 25px;
-}   
+}
 .text-bar {
 	width: 100%;
 	background: url(../img/otis_redding.png);
@@ -1321,12 +1321,12 @@ content: '';
 	color: #f0f0f0;
 }
 /* =============================================================================
-   Home - Service 
+   Home - Service
    ========================================================================== */
 .wraper-service-home{
 	margin:0;
-	overflow: hidden;	  
-	margin-bottom: 30px; 
+	overflow: hidden;
+	margin-bottom: 30px;
 }
 .wraper-service-home li{
 }
@@ -1334,7 +1334,7 @@ content: '';
 	width: 100%;
 }
 .service-home img{
-	display:block; 
+	display:block;
 	float:left;
 	margin-right:20px;
 }
@@ -1435,11 +1435,11 @@ content: '';
 .meter > span {
 	display: block;
 	height: 100%;
-	-webkit-box-shadow: 
+	-webkit-box-shadow:
  inset 0 2px 9px rgba(255, 255, 255, 0.3),  inset 0 -2px 6px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 
+	-moz-box-shadow:
  inset 0 2px 9px rgba(255, 255, 255, 0.3),  inset 0 -2px 6px rgba(0, 0, 0, 0.4);
-	box-shadow: 
+	box-shadow:
  inset 0 2px 9px rgba(255, 255, 255, 0.3),  inset 0 -2px 6px rgba(0, 0, 0, 0.4);
 	position: relative;
 	overflow: hidden;
@@ -1451,9 +1451,9 @@ content: '';
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background-image: 
+	background-image:
  -webkit-gradient(linear, 0 0, 100% 100%,  color-stop(.25, rgba(255, 255, 255, .2)),  color-stop(.25, transparent), color-stop(.5, transparent),  color-stop(.5, rgba(255, 255, 255, .2)),  color-stop(.75, rgba(255, 255, 255, .2)),  color-stop(.75, transparent), to(transparent)  );
-	background-image: 
+	background-image:
  -moz-linear-gradient(  -45deg,  rgba(255, 255, 255, .2) 25%,  transparent 25%,  transparent 50%,  rgba(255, 255, 255, .2) 50%,  rgba(255, 255, 255, .2) 75%,  transparent 75%,  transparent  );
 	z-index: 1;
 	-webkit-background-size: 50px 50px;
@@ -2053,7 +2053,7 @@ background-position: 60px 0;
 	border: 1px solid #75c7d3 !important;
 }
 /* =============================================================================
-   Search form 
+   Search form
    ========================================================================== */
 .search {
 	overflow:hidden;
@@ -2120,7 +2120,7 @@ background-position: 60px 0;
 /* =============================================================================
    FOOTER
    ========================================================================== */
-   
+
 footer {
 	width: 100%;
 	background: #2D2E2F;
@@ -2220,7 +2220,7 @@ footer p {
    ========================================================================== */
 .twitter-bar {
 	width: 100%;
-	background: url(../img/otis_redding.png);
+	background: url(../img/noisy_net.png);
 	padding: 5px 0;
 	margin-top: 30px;
 }
@@ -2368,7 +2368,7 @@ ul.jBar-social li:hover {
  *
  * Contributing author: Tyler Smith (@mbmufffin)
  */
- 
+
 /* Browser Resets */
 .flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
 	outline: none;
@@ -2379,7 +2379,7 @@ ul.jBar-social li:hover {
 	list-style: none;
 }
 /* FlexSlider Necessary Styles
-*********************************/ 
+*********************************/
 .flexslider {
 	margin: 0;
 	padding: 0;
@@ -3481,7 +3481,7 @@ div.ppt {
 	Mosaic - Sliding Boxes and Captions jQuery Plugin
 	Version 1.0.1
 	www.buildinternet.com/project/mosaic
-	
+
 	By Sam Dunn / One Mighty Roar (www.onemightyroar.com)
 	Released under MIT License / GPL License
 */
